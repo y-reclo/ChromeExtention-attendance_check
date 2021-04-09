@@ -1,0 +1,21 @@
+{
+    "name": "出退勤チェック",
+    "description": "",
+    "version": "1.0",
+    "minimum_chrome_version": "16.0.884",
+    "permissions": [
+        "<all_urls>"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.chatwork.com/#!rid159298633",
+                "https://www.chatwork.com/*"
+            ],
+            "js": [
+                "attendanceCheck.js"
+            ]
+        }
+    ],
+    "manifest_version": 2
+}
