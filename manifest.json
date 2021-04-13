@@ -9,7 +9,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://www.chatwork.com/#!rid159298633"
+                "https://www.chatwork.com/*"
             ],
             "js": [
                 "attendanceCheck.js"
